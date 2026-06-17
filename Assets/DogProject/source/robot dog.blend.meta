@@ -1,0 +1,428 @@
+fileFormatVersion: 2
+guid: 84c6078c36203ed45bf4d2f9484ae117
+ModelImporter:
+  serializedVersion: 24501
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+    searchTexturesGlobally: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 1
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 1
+    importConstraints: 1
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Scene
+      takeName: Scene
+      internalID: -623603649343465320
+      firstFrame: 1.03
+      lastFrame: 250
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    importUVs: -1
+    importVertexColors: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+    calculateBlendshapeNormalsDeltaFromImportedNormals: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: robot dog(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_17
+      parentName: robot dog(Clone)
+      position: {x: -0.42165995, y: 1.5427884, z: -0.9885402}
+      rotation: {x: 0.5210203, y: -0.032024436, z: -0.051985197, w: 0.85135764}
+      scale: {x: 0.010000001, y: 0.0100000035, z: 0.010000002}
+    - name: Object_26
+      parentName: robot dog(Clone)
+      position: {x: -0.4438558, y: 1.5532422, z: 0.7920632}
+      rotation: {x: 0.7047508, y: -0.043237537, z: -0.0431108, w: 0.7068227}
+      scale: {x: 0.01, y: 0.010000002, z: 0.01}
+    - name: Object_35
+      parentName: robot dog(Clone)
+      position: {x: 0.42958277, y: 1.4459816, z: 0.79237795}
+      rotation: {x: 0.7047508, y: -0.043237537, z: -0.0431108, w: 0.7068227}
+      scale: {x: 0.01, y: 0.010000002, z: 0.01}
+    - name: Object_44
+      parentName: robot dog(Clone)
+      position: {x: 0.41902894, y: 1.4420524, z: -0.9876186}
+      rotation: {x: 0.7047508, y: -0.043237537, z: -0.0431108, w: 0.7068227}
+      scale: {x: 0.01, y: 0.010000002, z: 0.01}
+    - name: Sketchfab_model
+      parentName: robot dog(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 1, y: 0, z: 0, w: -0.0000000754979}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: WALK.fbx
+      parentName: Sketchfab_model
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0.7071069, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 0.01, y: 0.010000001, z: 0.010000001}
+    - name: Object_2
+      parentName: WALK.fbx
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: RootNode
+      parentName: Object_2
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: CINEMA_4D_Editor
+      parentName: RootNode
+      position: {x: 506.2201, y: -382.6781, z: -215.7806}
+      rotation: {x: 0.09738052, y: -0.032914143, z: 0.9423318, w: 0.3185035}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Object_5
+      parentName: CINEMA_4D_Editor
+      position: {x: 0.000061035156, y: -0.000004053116, z: 0.000015258789}
+      rotation: {x: 0.000000002808473, y: -0.0000000037252903, z: -0.0000000076481745, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OctaneCamera
+      parentName: RootNode
+      position: {x: -1220.7509, y: 2476.7698, z: -249.78876}
+      rotation: {x: -0.009435208, y: -0.015141971, z: -0.5287642, w: 0.84858125}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999999}
+    - name: Object_9
+      parentName: OctaneCamera
+      position: {x: -0.00024414062, y: -0.00009870529, z: 0.000015258789}
+      rotation: {x: 6.4701494e-10, y: 9.313227e-10, z: 0.0000000074440463, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: OctaneCamera_1
+      parentName: RootNode
+      position: {x: 1065.3256, y: -1206.7766, z: -286.36777}
+      rotation: {x: 0.051901527, y: -0.020549264, z: 0.9283268, w: 0.36755058}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: Object_7
+      parentName: OctaneCamera_1
+      position: {x: 0.00012207031, y: 0.000076293945, z: 0}
+      rotation: {x: -6.7605305e-10, y: -2.220446e-16, z: -0.000000014825329, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: SPOT_DOG
+      parentName: RootNode
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: FRONLT_R_LEG_CONTROL
+      parentName: SPOT_DOG
+      position: {x: -41.80605, y: -170.71039, z: 1.3465431}
+      rotation: {x: 0.93974227, y: 0, z: 0, w: 0.34188384}
+      scale: {x: 1, y: 0.9999998, z: 0.9999998}
+    - name: FRONT_L_LEG_CONTROL
+      parentName: SPOT_DOG
+      position: {x: 42.52521, y: -29.773119, z: 1.167281}
+      rotation: {x: 0.90108794, y: 0, z: 0, w: 0.4336364}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: REAR_L_LEG_CONTROL
+      parentName: SPOT_DOG
+      position: {x: 43.58427, y: 19.318075, z: 0.81719524}
+      rotation: {x: 0.83938926, y: 0, z: 0, w: 0.54353076}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: REAR_R_LEG_CONTROL
+      parentName: SPOT_DOG
+      position: {x: -44.06372, y: 158.47395, z: 1.991786}
+      rotation: {x: 0.95706964, y: 0, z: 0, w: 0.28985807}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: SPOT_BODY
+      parentName: SPOT_DOG
+      position: {x: -0.55387735, y: -9.056976, z: -150.93256}
+      rotation: {x: 0.4695751, y: -0.25866354, z: -0.022241784, w: 0.84385884}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999999}
+    - name: FRONT_LEG
+      parentName: SPOT_BODY
+      position: {x: 42.814423, y: -89.7215, z: 0.31521654}
+      rotation: {x: 5.820766e-11, y: 0, z: -7.275958e-12, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Object_41
+      parentName: FRONT_LEG
+      position: {x: 0, y: 0, z: 0.000015735626}
+      rotation: {x: 5.820766e-11, y: 0, z: -7.275958e-12, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Object_43
+      parentName: Object_41
+      position: {x: 42.936676, y: -82.330795, z: -166.17685}
+      rotation: {x: 5.820766e-11, y: 0, z: -7.275958e-12, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: _rootJoint
+      parentName: Object_41
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0.7070329, y: -0.010216714, z: -0.010216708, w: 0.70703304}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: Joint_2_4_010
+      parentName: _rootJoint
+      position: {x: 0.000007629395, y: -0.000015258789, z: 0.000022888184}
+      rotation: {x: 0.9502517, y: 0.000000013969837, z: -0.000000040046867, w: 0.31148297}
+      scale: {x: 1, y: 1.0000006, z: 1.0000006}
+    - name: Joint_3_4_011
+      parentName: Joint_2_4_010
+      position: {x: -0.00000003902187, y: 92.82882, z: 0.0000026497132}
+      rotation: {x: -0.13139087, y: 0.00000001817406, z: 0.000000015287405, w: 0.9913307}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: Joint_4_012
+      parentName: Joint_3_4_011
+      position: {x: -0.000007629391, y: -0.00013840199, z: 106.78064}
+      rotation: {x: -0.90108764, y: -0.0000000033789966, z: 0.000000001566024, w: 0.43363702}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: Joint_4_012_end
+      parentName: Joint_4_012
+      position: {x: 0, y: 104.59416, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FRONT_R_LEG
+      parentName: SPOT_BODY
+      position: {x: -41.855522, y: -89.78407, z: 0.56343365}
+      rotation: {x: -0.2325932, y: 2.7271455e-19, z: -7.481137e-12, w: 0.9725742}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_14
+      parentName: FRONT_R_LEG
+      position: {x: 0, y: -0.0000076293945, z: 0.000015258789}
+      rotation: {x: -0.000000014901161, y: -0.0000000018626451, z: -0.0000000018626449, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Object_16
+      parentName: Object_14
+      position: {x: -41.733273, y: -82.39343, z: -165.92859}
+      rotation: {x: -0.23259324, y: -0.0000000019151702, z: 9.575853e-10, w: 0.9725741}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Root
+      parentName: Object_14
+      position: {x: 0, y: -0.0000076293945, z: 0.000015258789}
+      rotation: {x: 0.2325932, y: -1.2164292e-16, z: -0.0000000029251244, w: 0.9725741}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: _rootJoint
+      parentName: Object_14
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0.7070328, y: -0.0044889543, z: -0.013733588, w: 0.7070332}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Joint_1_00
+      parentName: _rootJoint
+      position: {x: 0.0000038146848, y: -0.00024414062, z: -0.00036621094}
+      rotation: {x: 0.98952985, y: 0.000000012107192, z: -0.0000000372529, w: 0.14432879}
+      scale: {x: 0.9999999, y: 0.9999998, z: 1.0000013}
+    - name: Joint_2_01
+      parentName: Joint_1_00
+      position: {x: -0.0000005724869, y: 92.606705, z: -0.00024092995}
+      rotation: {x: -0.20267336, y: -0.000000017187283, z: 0.00000001804574, w: 0.97924644}
+      scale: {x: 1, y: 1.0000007, z: 1.0000004}
+    - name: Joint_3_02
+      parentName: Joint_2_01
+      position: {x: 0.000012874552, y: -0.0002706647, z: 109.9382}
+      rotation: {x: -0.9397419, y: 0.000000017560586, z: 0.000000051753258, w: 0.34188476}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999998}
+    - name: Joint_3_02_end
+      parentName: Joint_3_02
+      position: {x: 0, y: 104.057106, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: REAR_LEG
+      parentName: SPOT_BODY
+      position: {x: 43.87773, y: 88.27852, z: 0.31523418}
+      rotation: {x: 5.820766e-11, y: 0, z: -7.275958e-12, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Object_32
+      parentName: REAR_LEG
+      position: {x: 0.0000038146973, y: -0.0000076293945, z: 0.000018119812}
+      rotation: {x: 5.820766e-11, y: 0, z: -7.275958e-12, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Object_34
+      parentName: Object_32
+      position: {x: 43.999977, y: 95.6692, z: -166.17683}
+      rotation: {x: 5.820766e-11, y: 0, z: -7.275958e-12, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: _rootJoint
+      parentName: Object_32
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0.00000008055963, y: -0.0144486055, z: -0.000000005404356, w: 0.99989563}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Root_3_06
+      parentName: _rootJoint
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: -0.000000010244549, z: 0.0000000027814677, w: 0.7071068}
+      scale: {x: 1, y: 0.9999997, z: 1}
+    - name: Joint_1_3_07
+      parentName: Root_3_06
+      position: {x: -0.000007629399, y: 0.000076293945, z: -0.00012207031}
+      rotation: {x: 0.9058375, y: -0.000000011488665, z: -0.000000041254786, w: 0.42362547}
+      scale: {x: 1, y: 0.99999946, z: 1.0000001}
+    - name: Joint_2_3_08
+      parentName: Joint_1_3_07
+      position: {x: 0.0000004397989, y: 92.82336, z: 1.0093709}
+      rotation: {x: 0.6307847, y: -0.00000005179633, z: -0.00000007933351, w: 0.775958}
+      scale: {x: 1, y: 1.0000006, z: 1.0000001}
+    - name: Joint_3_3_09
+      parentName: Joint_2_3_08
+      position: {x: 0.0000022649765, y: 106.78056, z: -0.0005464554}
+      rotation: {x: -0.85756564, y: 0.000000051635546, z: 0.000000080250864, w: 0.5143745}
+      scale: {x: 1.0000001, y: 1.0000004, z: 0.99999976}
+    - name: Joint_3_3_09_end
+      parentName: Joint_3_3_09
+      position: {x: 0, y: 201.97162, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: REAR_R_LEG
+      parentName: SPOT_BODY
+      position: {x: -44.122253, y: 88.278534, z: 0.3152361}
+      rotation: {x: 5.820766e-11, y: 0, z: -7.275958e-12, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Object_23
+      parentName: REAR_R_LEG
+      position: {x: -0.0000038146973, y: 0, z: 0.0000047683716}
+      rotation: {x: 5.820766e-11, y: 0, z: -7.275958e-12, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Object_25
+      parentName: Object_23
+      position: {x: -44.00001, y: 95.66921, z: -166.17682}
+      rotation: {x: 5.820766e-11, y: 0, z: -7.275958e-12, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Root_2
+      parentName: Object_23
+      position: {x: -0.0000038146973, y: -0.000015258789, z: 0.0000047683716}
+      rotation: {x: 5.820766e-11, y: 0, z: -7.275958e-12, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: _rootJoint
+      parentName: Object_23
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0.6710566, y: -0.32574204, z: -0.16677897, w: 0.6447946}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: Joint_1_2_03
+      parentName: _rootJoint
+      position: {x: -0.00002670289, y: 0.00019836426, z: -0.0002670288}
+      rotation: {x: 0.9868573, y: -0.000000006519257, z: -0.00000008940696, w: 0.16159432}
+      scale: {x: 1, y: 1.0000001, z: 0.9999997}
+    - name: Joint_2_2_04
+      parentName: Joint_1_2_03
+      position: {x: -0.00000006041614, y: 92.8288, z: -0.00020472985}
+      rotation: {x: 0.019950785, y: -0.11196299, z: 0.14617717, w: 0.9826996}
+      scale: {x: 1.0000002, y: 1, z: 1}
+    - name: Joint_3_2_05
+      parentName: Joint_2_2_04
+      position: {x: -0.0000021457454, y: 106.780655, z: -0.00018668175}
+      rotation: {x: -0.95707, y: 0.00000006103745, z: 0.00000019142952, w: 0.28985694}
+      scale: {x: 0.99999976, y: 1.0000002, z: 1.0000012}
+    - name: Joint_3_2_05_end
+      parentName: Joint_3_2_05
+      position: {x: 0, y: 154.09341, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SPOT_BODY__0
+      parentName: SPOT_BODY
+      position: {x: -0.00000035762787, y: 0.0000009536743, z: -0.0000019818544}
+      rotation: {x: 5.820766e-11, y: 0, z: -7.275958e-12, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
